@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animation-hover:after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  height: 1px;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  @apply w-0 bg-primary-extralight left-1/2 block bottom-0 absolute;
+}
+
+.animation-hover:hover:after {
+  @apply left-0 w-full;
+}
+
+.animation-active:after {
+  @apply left-0 w-full bg-primary-dark;
+}
