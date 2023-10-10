@@ -24,6 +24,9 @@ const config: Config = {
         "light-2": "#ade8f4",
         "light-3": "#caf0f8",
       },
+      fontsize: {
+        xxs: "12px",
+      },
     },
   },
   plugins: [],

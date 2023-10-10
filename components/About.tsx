@@ -6,21 +6,6 @@ import TabComponent from "./TabComponent";
 
 const TAB_DATA: any = [
   {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>HTML, CSS, JavaScript</li>
-        <li>React JS, NEXT JS, React Native</li>
-        <li>Node.js, Express, Java</li>
-        <li>GraphQL ,REST Api</li>
-        <li>MongoDB</li>
-        <li>GCP, Firebase</li>
-        <li>Git, Github</li>
-      </ul>
-    ),
-  },
-  {
     title: "Education",
     id: "education",
     content: (
@@ -44,7 +29,7 @@ const TAB_DATA: any = [
 ];
 
 const About = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("education");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id: any) => {
@@ -74,13 +59,6 @@ const About = () => {
             I am excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
-            <TabComponent
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabComponent>
             <TabComponent
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}

@@ -6,18 +6,19 @@ export const NavLinks = [
   { href: "/", key: "Contact", text: "Contact" },
 ];
 
-export const Skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "mongodb",
-  "React JS",
-  "Next JS",
-  "Node.js",
-  "Express",
-  "Java",
-  "GraphQL",
-  "Git Github",
+export const SkillsSet = [
+  { key: "HTML" },
+  { key: "CSS" },
+  { key: "JavaScript" },
+  { key: "mongodb" },
+  { key: "React JS" },
+  { key: "Next JS" },
+  { key: "Node.js" },
+  { key: "Express" },
+  { key: "Java" },
+  { key: "GraphQL" },
+  { key: "Git" },
+  { key: "Github" },
 ];
 
 export const Education = [
