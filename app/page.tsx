@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import React from "react";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <About />
       <Skills />
+      <Projects />
       Experience and Education Skills Projects Contact
     </div>
   );
