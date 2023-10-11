@@ -38,7 +38,7 @@ const About = () => {
     });
   };
   return (
-    <section className="text-primary-light" id="about">
+    <section className="text-primary-light lg:pt-10 md:pt-24" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/headerImage.png"
@@ -50,7 +50,7 @@ const About = () => {
           <h2 className="text-4xl font-bold text-primary-light mb-4">
             About Me
           </h2>
-          <p className="text-primary-extralight lg:text-lg">
+          <p className="text-primary-extralight lg:text-lg text-justify">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, Express, graphQL,

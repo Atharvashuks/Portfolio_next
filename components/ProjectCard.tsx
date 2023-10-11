@@ -54,7 +54,7 @@ const ProjectCard = ({
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-secondary-extralight">{description}</p>
         <div
-          className="lg:hidden grid grid-cols-2 flex overlay justify-items-center
+          className="lg:hidden grid grid-cols-2 overlay justify-items-center
             top-2 left-0 w-full h-full mt-3"
         >
           <Link

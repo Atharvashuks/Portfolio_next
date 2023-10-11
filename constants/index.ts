@@ -1,8 +1,8 @@
 export const NavLinks = [
   { href: "/", key: "Home", text: "Home" },
-  { href: "#skills", key: "About", text: "About" },
-  { href: "/", key: "Projects", text: "Projects" },
-  { href: "/", key: "Experience", text: "Experience" },
+  { href: "#about", key: "About", text: "About" },
+  { href: "#experience", key: "Experience", text: "Experience" },
+  { href: "#projects", key: "Projects", text: "Projects" },
   { href: "/", key: "Contact", text: "Contact" },
 ];
 
@@ -40,6 +40,49 @@ export const SoftSkills = [
   "Good Communication skills",
   "Team Player",
   "Sense of Humour",
+];
+
+export const experiences = [
+  {
+    id: 1,
+    time: "July 2022 - August 2022",
+    role: "Website Developer",
+    title: "RCC MRU",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae dui non ligula euismod tincidunt. Etiam vel lorem vel dui bibendum aliquet eu vitae massa. Mauris tincidunt ullamcorper arcu non vulputate. Aenean egestas libero quis purus facilisis consequat.",
+  },
+  {
+    id: 1,
+    time: "July 2022 - August 2022",
+    role: "Website Developer",
+    title: "RCC MRU",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae dui non ligula euismod tincidunt. Etiam vel lorem vel dui bibendum aliquet eu vitae massa. Mauris tincidunt ullamcorper arcu non vulputate. Aenean egestas libero quis purus facilisis consequat.",
+  },
+  {
+    id: 2,
+    time: "July 2022 - August 2022",
+    role: "Website Developer",
+    title: "RCC MRU",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae dui non ligula euismod tincidunt. Etiam vel lorem vel dui bibendum aliquet eu vitae massa. Mauris tincidunt ullamcorper arcu non vulputate. Aenean egestas libero quis purus facilisis consequat.",
+  },
+  {
+    id: 3,
+    time: "July 2022 - August 2022",
+    role: "Website Developer",
+    title: "RCC MRU",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae dui non ligula euismod tincidunt. Etiam vel lorem vel dui bibendum aliquet eu vitae massa. Mauris tincidunt ullamcorper arcu non vulputate. Aenean egestas libero quis purus facilisis consequat.",
+  },
+  {
+    id: 4,
+    time: "July 2022 - August 2022",
+    role: "Website Developer",
+    title: "RCC MRU",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae dui non ligula euismod tincidunt. Etiam vel lorem vel dui bibendum aliquet eu vitae massa. Mauris tincidunt ullamcorper arcu non vulputate. Aenean egestas libero quis purus facilisis consequat.",
+  },
 ];
 
 export const projectsData = [
