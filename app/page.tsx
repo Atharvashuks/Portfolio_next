@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Projects from "@/components/Projects";
@@ -13,7 +14,8 @@ const Home = () => {
       <Skills />
       <Experience />
       <Projects />
-      <Services />
+      {/* <Services /> */}
+      <Contact />
     </div>
   );
 };

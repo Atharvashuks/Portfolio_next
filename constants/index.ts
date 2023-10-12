@@ -3,7 +3,7 @@ export const NavLinks = [
   { href: "#about", key: "About", text: "About" },
   { href: "#experience", key: "Experience", text: "Experience" },
   { href: "#projects", key: "Projects", text: "Projects" },
-  { href: "/", key: "Contact", text: "Contact" },
+  { href: "/#contact", key: "Contact", text: "Contact" },
 ];
 
 export const SkillsSet = [
